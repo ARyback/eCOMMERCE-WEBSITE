@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: white;
+}
+section {
+    height: 400px;
+    color: rgb(5, 5, 82);
+    /* color is text color */
+    background-color: rgb(77, 77, 106);
+    margin: 30px;
+
+}
+
+.about {
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+header {
+    position: relative;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
